@@ -2,13 +2,19 @@
     border: 2px solid red
     ;
 }
+html { overflow-y: scroll; 
+   
+}
 body{
 display: flex;
 flex-direction: column;
  height: 100vh;
- margin: 0;
+ margin:0;
   overflow: hidden;
   font-family: Roboto, sans-serif;
+  position: absolute; 
+  border: 2px solid black;
+  width:100%;
 }
 /*header*/
  .header{
@@ -42,7 +48,9 @@ font-weight: 600;
     
     
 }
-/*where the top portion starts */
+
+/*THE TOP PORTION STARTS HERE */
+
 .top-section{
     display: flex;
     height: 250px;
@@ -74,7 +82,9 @@ font-weight: 600;
    border-radius: 30px;
     
 }
-/*second protion begin*/
+
+/*SECOND PORTION STARTS HERE*/
+
 .rand-info{
     display: flex;
     height: 400px;
@@ -90,7 +100,7 @@ font-weight: 600;
     font-family:hero;
     font-weight: 900;
     font-size: 28px; 
-    border: 3px solid blue;
+    border: 3px solid rgb(31, 168, 116);
 }
 .info{
     display: flex;
@@ -101,8 +111,18 @@ font-weight: 600;
     border: 6px solid blue;
     border-radius: 30px;
     width: 170px;
-
 }
 .container{
     display:flex;
+    border: 2px solid yellowgreen;
+    height: 200px;
 }
+.square-con{
+    height: 200px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 100;
+    font-size: 17px;
+}
+
+/*THIRD PORTION STARTS HERE*/
+
