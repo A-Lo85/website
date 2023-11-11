@@ -2,9 +2,8 @@
     border: 2px solid red
     ;
 }
-html { overflow-y: scroll; 
-   
-}
+html,body{overflow-y: scroll; }
+
 body{
 display: flex;
 flex-direction: column;
@@ -12,7 +11,7 @@ flex-direction: column;
  margin:0;
   overflow: hidden;
   font-family: Roboto, sans-serif;
-  position: absolute; 
+  
   border: 2px solid black;
   width:100%;
 }
@@ -45,6 +44,7 @@ font-weight: 600;
     display:flex;
     justify-content: center;
     flex-direction: column;
+    height: 100%;
     
     
 }
@@ -125,4 +125,8 @@ font-weight: 600;
 }
 
 /*THIRD PORTION STARTS HERE*/
+.quotes{
+    display: flex;
+    
 
+}
