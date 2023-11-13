@@ -56,6 +56,7 @@ font-weight: 600;
     height: 250px;
     gap: 30em;
     justify-content: center;
+    background-color: #1F2937;
     
 }
 .right-text{
@@ -64,6 +65,8 @@ font-weight: 600;
     font-family:hero;
     font-weight: 900;
     font-size: 28px;
+     color:#F9FAF8;
+     
 }
 .sub-text{
     margin-top: 16px;
@@ -130,6 +133,7 @@ font-weight: 600;
     display: flex;
     justify-content: center;
     min-height: 400px;
+    background-color: #E5E7EB;
 
 }
 .quotes{
@@ -171,10 +175,24 @@ font-weight: 600;
   margin-top: 20px;
 }
 .alert-left{
+    display: flex;
     border: 2px solid rgb(255, 255, 255);
     border-radius: 3px;
     height: 30px;
     width: 100px;
     margin-top: 20px;
+    justify-content: center;
+    align-items: center;
     
+}
+.left-tex{
+    display: flex;
+    justify-content: center;
+    height: 20px;
+}
+/*FOOTER STARTS HERE */
+.footer{
+    display: flex;
+    
+    justify-content: center;
 }
